@@ -133,7 +133,7 @@ body {
         <div class="form-group">
           <label for="pronoun">Third-person pronoun</label>
           <input type="text" class="form-control" name="pronoun" id="pronoun" placeholder="e.g. she/her, he/him, they/them" required maxlength="100">
-          <small id="inputPronounHelp" class="form-text text-muted">Third-person pronoun you want people to use to refer to you, such as: they/she/he/ze, or simply just your names.</small>
+          <small id="inputPronounHelp" class="form-text text-muted">Third-person pronoun you want people to use to refer to you, such as: they/she/he/ze, or simply just your name.</small>
         <div class="invalid-feedback">Please provide your choice of pronoun.</div>
         </div>
       </div>
@@ -196,6 +196,15 @@ body {
       <input type="text" class="form-control" id="dinner_diet" name="dinner_diet" maxlength="256" placeholder="optional">
     </div>
 
+
+    <hr>
+    <h5>Contributions</h5>
+    <div class="form-group">
+      <label for="title">If you would like to submit a contribution (20 minutes talk), please povide a title and short abstract:</label>
+      <input type="text" class="form-control" id="contrib_title" name="contrib_title" maxlength="512" placeholder="title">
+      <textarea class="form-control" id="contrib_abstract" name="contrib_abstract" maxlength="5000" rows="10" placeholder="abstract"></textarea>
+    </div>
+
     <hr>
     <div class="form-group">
       <div class="form-check">
@@ -208,7 +217,6 @@ body {
     </div>
     <div class="form-group" id="register_button">
       <button class="btn btn-primary" type="button">Register</button>
-      <small class="form-text text-muted">Please disable adblockers if you encouter any difficulties at checkout.</small>
   </div>
     <input type="hidden" name="secret" id="secret" value=""/>
   </form>
@@ -260,7 +268,7 @@ body {
       <dl class="row">
         <span class="text-muted">
   <p class="lead">Privacy notice</p>
-  <p>Your <mark>first name, last name, and affiliation will appear on a public webpage</mark> associated with the meeting website. Your badge names, pronoun(s), and your affiliation will appear on your badge. Your email will be used to contact you when necessary. All data collected here may be shared with the organization committee.
+  <p>Your <mark>first name, last name, and affiliation will appear on a public webpage</mark> associated with the meeting website. Your badge names, pronoun(s), and your affiliation will appear on your badge. Your email will be used to contact you when necessary. All data collected here may be shared with the organizing committee.
   </p>
          <div class="col-md-12">
           <!--Footer Bottom-->

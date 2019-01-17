@@ -22,8 +22,6 @@ class Participant(db.Model):
     lname = db.Column(db.String(100))
     sname = db.Column(db.String(100))
     pronoun = db.Column(db.String(100))
-    contact = db.Column(db.String(5))
-    visa    = db.Column(db.String(5))
 
     attend_mon = db.Column(db.String(5))
     attend_tue = db.Column(db.String(5))
@@ -32,7 +30,9 @@ class Participant(db.Model):
     attend_fri = db.Column(db.String(5))
 
     dinner_diet = db.Column(db.String(512))
-    carpool = db.Column(db.String(5))
+
+    contrib_title = db.Column(db.String(512))
+    contrib_abstract = db.Column(db.String(5000))
 
     code_of_conduct = db.Column(db.String(5))
 
