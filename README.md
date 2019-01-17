@@ -3,7 +3,7 @@ Online registration form  and back end server for various meetings.
 Can be **deployed in under 5 minutes** and embedded on Confluence or anywhere else.
 
 Checkout a preview of the registration form
- [here](https://LFITaskForce/meeting-registration-form/index.html).
+ [here](https://LFITaskForce/meeting-registration-form.github.io/index.html).
 
 ## Deploy
 
