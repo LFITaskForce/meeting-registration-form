@@ -216,7 +216,7 @@ body {
       </div>
     </div>
     <div class="form-group" id="register_button">
-      <button class="btn btn-primary" type="button">Register</button>
+      <button class="btn btn-primary" type="button" >Register</button>
   </div>
     <input type="hidden" name="secret" id="secret" value=""/>
   </form>
@@ -277,15 +277,12 @@ body {
 </dl>
   </div>
 </footer>
-  <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
   <script>
 
-// Eventbrite widget support
-var checkoutCallback = function() {
-
-  // Manually submit form data using Ajax and display confirmation modal
+// Registration call
+document.getElementById("register").onclick = function(e) {
   $.ajax({
         type : 'POST',
         data: $("#main_form").serialize(),
@@ -295,7 +292,10 @@ var checkoutCallback = function() {
             $("#confirmationModal").modal("show");
         }
     });
-};
+  e.preventDefault();
+  return false;
+}
+
 
 // Validate the form before authorising checkout
 $(function(){
