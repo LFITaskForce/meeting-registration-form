@@ -1,5 +1,5 @@
 # meeting-registration-form
-Meetings committee compliant online registration form for LSST DESC meetings.
+Online registration form  and back end server for various meetings.
 Can be **deployed in under 5 minutes** and embedded on Confluence or anywhere else.
 
 Checkout a preview of the registration form
