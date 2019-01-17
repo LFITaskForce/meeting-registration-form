@@ -1,11 +1,11 @@
 {
-  "name": "DESC Registration Server",
-  "description": "A registration server for LSST DESC collaboration meetings",
+  "name": "Registration Server",
+  "description": "A registration server for various meetings",
   "keywords": [
     "flask",
     "python"
   ],
-  "repository": "https://github.com/LSSTDESC/meeting-registration-form",
+  "repository": "https://github.com/LFITaskForce/meeting-registration-form",
   "addons": [
     {
       "plan": "heroku-postgresql",
