@@ -18,6 +18,7 @@ class Participant(db.Model):
     first_name = db.Column(db.String(100))
     last_name  = db.Column(db.String(100))
     email = db.Column(db.String(100))
+    phone = db.Column(db.String(100))
     affiliation = db.Column(db.String(100))
     lname = db.Column(db.String(100))
     sname = db.Column(db.String(100))
