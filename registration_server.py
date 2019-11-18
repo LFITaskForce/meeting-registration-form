@@ -18,17 +18,17 @@ class Participant(db.Model):
     first_name = db.Column(db.String(100))
     last_name  = db.Column(db.String(100))
     email = db.Column(db.String(100))
-    phone = db.Column(db.String(100))
+    # phone = db.Column(db.String(100))
     affiliation = db.Column(db.String(100))
     lname = db.Column(db.String(100))
     sname = db.Column(db.String(100))
     pronoun = db.Column(db.String(100))
 
-    attend_mon = db.Column(db.String(5))
-    attend_tue = db.Column(db.String(5))
-    attend_wed = db.Column(db.String(5))
-    attend_thu = db.Column(db.String(5))
-    attend_fri = db.Column(db.String(5))
+    # attend_mon = db.Column(db.String(5))
+    # attend_tue = db.Column(db.String(5))
+    # attend_wed = db.Column(db.String(5))
+    # attend_thu = db.Column(db.String(5))
+    # attend_fri = db.Column(db.String(5))
 
     dinner_diet = db.Column(db.String(512))
 
